@@ -1,0 +1,121 @@
+site_name: hotkeys
+site_description: Personal hotkey documentation for OS, hardware layouts, terminal tools, browser extensions, editors, automation, and workflows.
+site_url: https://example.com/hotkeys/
+repo_url: https://github.com/your-username/hotkeys
+repo_name: your-username/hotkeys
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.action.edit
+    - content.code.copy
+    - toc.follow
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  icon:
+    repo: fontawesome/brands/github
+
+plugins:
+  - search
+  - tags
+  - minify:
+      minify_html: true
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.keys
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/your-username/hotkeys
+
+nav:
+  - Home: index.md
+  - Getting started: getting-started.md
+  - Concepts:
+      - Overview: concepts/index.md
+      - Modifiers: concepts/modifiers.md
+      - Notation: concepts/notation.md
+      - Muscle memory: concepts/muscle-memory.md
+  - Hardware:
+      - Overview: hardware/index.md
+      - Ergodox EZ: hardware/ergodox.md
+      - Moonlander: hardware/moonlander.md
+      - Laptop keyboard: hardware/laptop-keyboard.md
+  - OS:
+      - Overview: os/index.md
+      - macOS: os/macos.md
+      - Linux: os/linux.md
+      - Ubuntu: os/ubuntu.md
+      - Windows: os/windows.md
+  - Automation:
+      - Overview: automation/index.md
+      - Hammerspoon: automation/hammerspoon.md
+      - systemd keyboard profiles: automation/systemd-keyboard-profiles.md
+  - Window manager:
+      - Overview: window-manager/index.md
+      - Amethyst: window-manager/amethyst.md
+  - Terminal:
+      - Overview: terminal/index.md
+      - Kitty: terminal/kitty.md
+      - tmux: terminal/tmux.md
+      - Bash: terminal/bash.md
+      - Zsh: terminal/zsh.md
+  - Editors:
+      - Overview: editors/index.md
+      - Neovim: editors/neovim.md
+      - Vim: editors/vim.md
+      - VS Code: editors/vscode.md
+  - Browsers:
+      - Overview: browsers/index.md
+      - Brave: browsers/brave.md
+      - Vimium for Brave: browsers/vimium-brave.md
+  - Productivity:
+      - Overview: productivity/index.md
+  - Workflows:
+      - Overview: workflows/index.md
+      - Navigation: workflows/navigation.md
+      - Tabs: workflows/tabs.md
+      - Panes and windows: workflows/panes-and-windows.md
+  - Reference:
+      - Conventions: reference/conventions.md
+      - Glossary: reference/glossary.md
+      - Sources: reference/sources.md
+  - Page templates:
+      - Shortcut page template: page-templates/shortcut-page-template.md
+      - Section template: page-templates/shortcut-section-template.md
