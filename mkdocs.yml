@@ -1,8 +1,8 @@
 site_name: hotkeys
 site_description: Personal hotkey documentation for OS, hardware layouts, terminal tools, browser extensions, editors, automation, and workflows.
 site_url: https://example.com/hotkeys/
-repo_url: https://github.com/your-username/hotkeys
-repo_name: your-username/hotkeys
+repo_url: https://github.com/vicmunoz/hotkeys
+repo_name: vicmunoz/hotkeys
 edit_uri: edit/main/docs/
 
 theme:
@@ -62,7 +62,7 @@ markdown_extensions:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/your-username/hotkeys
+      link: https://github.com/vicmunoz/hotkeys
 
 nav:
   - Home: index.md
