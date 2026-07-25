@@ -69,7 +69,7 @@ Then add the page to `mkdocs.yml` under `nav`.
 
 ```markdown
 | Shortcut | Action | Type | Frequency | Notes |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | ++cmd+t++ | New tab | Default | Daily | Native app shortcut |
 ```
 
