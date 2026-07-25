@@ -21,16 +21,24 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v7
+
       - name: Configure Pages
         uses: actions/configure-pages@v6
+
       - name: Set up Python
         uses: actions/setup-python@v7
         with:
-          python-version: '3.x'
+          python-version-file: "pyproject.toml"
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b # v8.1.0
+
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: uv sync --locked
+
       - name: Build site
-        run: mkdocs build --strict
+        run: uv run mkdocs build --strict
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v5
         with:
