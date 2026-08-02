@@ -1,24 +1,11 @@
 # Conventions
 
-## Page organization
-
-Prefer workflow-first organization:
-
-1. Daily shortcuts
-2. Navigation
-3. Editing or interaction
-4. Search
-5. Window, tab, pane, or buffer management
-6. Advanced commands
-7. Custom mappings
-8. Conflicts and notes
-9. Sources
-
 ## Shortcut table format
 
-| Shortcut | Action | Frequency | Custom? | Notes |
+| Shortcut | Action | Frequency | Custom | Notes |
 | --- | --- | ---: | --- | --- |
-| ++ctrl+p++ | Open file | Daily | No | Example row |
+| ++ctrl++ + ++p++ | Open file | Daily | No | Example row |
+| <kbd>hyper</kbd> + ++j++ | Move focus to previous window | Daily | Yes | Backward (clockwise) | 
 
 ## Key notation
 
@@ -26,6 +13,8 @@ Use Material for MkDocs key notation:
 
 | Meaning | Format |
 | --- | --- |
+| Hyper | <kbd>hyper</kbd> |
+| Meh | <kbd>meh</kbd> |
 | Control | `++ctrl++` |
 | Command | `++cmd++` |
 | Option / Alt | `++alt++` |
@@ -38,7 +27,7 @@ Use Material for MkDocs key notation:
 For multi-step shortcuts, use `then`:
 
 ```markdown
-++ctrl+b++ then ++c++
+++ctrl++ + ++b++ then ++c++
 ```
 
 ## Frequency labels

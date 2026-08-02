@@ -1,9 +1,9 @@
 # Hammerspoon
 
-Hammerspoon is the intended home for macOS automation that uses global shortcuts such as ++hyper+s++ and ++hyper+d++.
+Hammerspoon is the intended home for macOS automation that uses global shortcuts such as <kbd>hyper</kbd> + +++s++ and <kbd>hyper</kbd> + +++d++.
 
-| Shortcut | Action | Status | Notes |
-| --- | --- | --- | --- |
-| ++hyper+s++ | Create Space | WIP | Implementation to document later. |
-| ++hyper+d++ | Delete Space | WIP | Implementation to document later. |
-| ++hyper+t++ | Toggle terminal | WIP | Currently iTerm2; future target may be Kitty. |
+| Shortcut | Action | Frequency | Custom | Notes |
+| --- | --- | --- | --- | --- |
+| <kbd>hyper</kbd> + ++s++ | Create Space | Rare | Yes | Implementation to document later. |
+| <kbd>hyper</kbd> + ++d++ | Delete Space | Rare | Yes | Implementation to document later. |
+| <kbd>hyper</kbd> + ++t++ | Toggle terminal | Rare | Yes | Currently iTerm2; future target may be Kitty. |

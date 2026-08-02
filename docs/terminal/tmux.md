@@ -16,7 +16,7 @@
 
 ## Daily shortcuts
 
-| Shortcut | Action | Frequency | Custom? | Notes |
+| Shortcut | Action | Frequency | Custom | Notes |
 | --- | --- | ---: | --- | --- |
 | Prefix then ++c++ | Create new window | Daily | No | Use one window per task/project. |
 | Prefix then ++n++ | Next window | Daily | No | Fast window cycling. |
@@ -31,7 +31,7 @@
 
 ## Session management
 
-| Shortcut / command | Action | Frequency | Custom? | Notes |
+| Shortcut / command | Action | Frequency | Custom | Notes |
 | --- | --- | ---: | --- | --- |
 | `tmux` | Start tmux | Daily | No | Starts unnamed session. |
 | `tmux new -s name` | Start named session | Weekly | No | Good for projects. |
@@ -43,7 +43,7 @@
 
 ## Window management
 
-| Shortcut | Action | Frequency | Custom? | Notes |
+| Shortcut | Action | Frequency | Custom | Notes |
 | --- | --- | ---: | --- | --- |
 | Prefix then ++c++ | Create window | Daily | No | New shell in session. |
 | Prefix then ++comma++ | Rename window | Weekly | No | Useful for project layouts. |
@@ -54,7 +54,7 @@
 
 ## Pane management
 
-| Shortcut | Action | Frequency | Custom? | Notes |
+| Shortcut | Action | Frequency | Custom | Notes |
 | --- | --- | ---: | --- | --- |
 | Prefix then ++percent++ | Split left/right | Daily | No | Horizontal split in tmux wording. |
 | Prefix then ++double-quote++ | Split top/bottom | Daily | No | Vertical split in tmux wording. |
@@ -66,7 +66,7 @@
 
 ## Copy mode
 
-| Shortcut | Action | Frequency | Custom? | Notes |
+| Shortcut | Action | Frequency | Custom | Notes |
 | --- | --- | ---: | --- | --- |
 | Prefix then ++left-bracket++ | Enter copy mode | Weekly | No | Scrollback and copy. |
 | ++q++ | Exit copy mode | Weekly | No | Also try `++esc++`. |
@@ -76,7 +76,7 @@
 
 ## Commands and help
 
-| Shortcut | Action | Frequency | Custom? | Notes |
+| Shortcut | Action | Frequency | Custom | Notes |
 | --- | --- | ---: | --- | --- |
 | Prefix then ++question++ | List key bindings | Monthly | No | Best built-in reference. |
 | Prefix then ++colon++ | tmux command prompt | Weekly | No | Run tmux commands interactively. |

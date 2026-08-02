@@ -67,11 +67,6 @@ extra:
 nav:
   - Home: index.md
   - Getting started: getting-started.md
-  - Concepts:
-      - Overview: concepts/index.md
-      - Modifiers: concepts/modifiers.md
-      - Notation: concepts/notation.md
-      - Muscle memory: concepts/muscle-memory.md
   - Hardware:
       - Overview: hardware/index.md
       - Ergodox EZ: hardware/ergodox.md
@@ -93,8 +88,6 @@ nav:
       - Overview: terminal/index.md
       - Kitty: terminal/kitty.md
       - tmux: terminal/tmux.md
-      - Bash: terminal/bash.md
-      - Zsh: terminal/zsh.md
   - Editors:
       - Overview: editors/index.md
       - Neovim: editors/neovim.md
@@ -113,6 +106,8 @@ nav:
   - Reference:
       - Conventions: reference/conventions.md
       - Glossary: reference/glossary.md
+      - Modifiers: reference/modifiers.md
+      - Muscle memory: reference/muscle-memory.md
       - Sources: reference/sources.md
   - Page templates:
       - Shortcut page template: page-templates/shortcut-page-template.md
