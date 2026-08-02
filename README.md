@@ -65,14 +65,6 @@ cp docs/page-templates/shortcut-page-template.md docs/terminal/new-tool.md
 
 Then add the page to `mkdocs.yml` under `nav`.
 
-## Recommended entry format
-
-```markdown
-| Shortcut | Action | Status | Frequency | Notes |
-| --- | --- | --- | --- | --- |
-| <kbd>cmd</kbd>+<kbd>t</kbd> | New tab | Default | Daily | Native app shortcut |
-```
-
 Use pages for tools, and use workflow pages to compare equivalent actions across tools.
 
 ## Initial real sections
