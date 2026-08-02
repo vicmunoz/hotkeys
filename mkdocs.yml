@@ -82,7 +82,6 @@ nav:
       - macOS: os/macos.md
       - Linux: os/linux.md
       - Ubuntu: os/ubuntu.md
-      - Windows: os/windows.md
   - Automation:
       - Overview: automation/index.md
       - Hammerspoon: automation/hammerspoon.md
@@ -99,7 +98,6 @@ nav:
   - Editors:
       - Overview: editors/index.md
       - Neovim: editors/neovim.md
-      - Vim: editors/vim.md
       - VS Code: editors/vscode.md
   - Browsers:
       - Overview: browsers/index.md

@@ -20,6 +20,6 @@ Moonlander and Ergodox EZ are the preferred keyboards and both use a macOS-style
 - **OS**: macOS, Ubuntu/Linux, and OS defaults/customizations.
 - **Automation**: Hammerspoon and future systemd keyboard profiles.
 - **Terminal**: Kitty, tmux, shells.
-- **Editors**: Neovim, Vim, VS Code.
+- **Editors**: Neovim, VS Code.
 - **Browsers**: Brave and Vimium.
 - **Workflows**: navigation, tabs, panes, and windows across tools.

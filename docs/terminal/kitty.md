@@ -6,7 +6,7 @@ Terminal emulator for macOS-style keyboard workflow.
 
 | Name | Meaning |
 | --- | --- |
-| `kitty_mod` | ++hyper++ |
+| <kbd>kitty_mode</kbd> | <kbd>hyper</kbd> |
 
 ## Windows and splits
 
