@@ -6,24 +6,28 @@ Terminal emulator for macOS-style keyboard workflow.
 
 | Name | Meaning |
 | --- | --- |
-| <kbd>kitty_mode</kbd> | <kbd>hyper</kbd> |
+| <kbd>kitty_mod</kbd> | <kbd>hyper</kbd> |
 
 ## Windows and splits
 
-| --- | --- |
-| ++cmd+plus++ | Increase font size |
-| ++cmd+minus++ | Decrease font size |
+| Shortcut | Action | Frequency | Custom | Notes |
+| --- | --- | --- | --- | --- |
+| ++cmd++ + ++plus++ | Increase font size | Weekly | No | |
+| ++cmd++ + ++minus++ | Decrease font size | Weekly | No | |
 
 ## Configuration and macOS app controls
 
-| Shortcut | Action |
-| --- | --- |
-| ++ctrl+cmd+comma++ | Load config file |
-| ++alt+cmd+comma++ | Debug config |
-| ++cmd+h++ | Hide macOS app |
-| ++cmd+q++ | Quit Kitty |
+| Shortcut | Action | Frequency | Custom | Notes |
+| --- | --- | --- | --- | --- |
+| ++ctrl++ + ++cmd++ + ++comma++ | Load config file | Rare
+| ++alt++ + ++cmd++ + ++comma++ | Debug config | Rare
+| ++cmd++ + ++h++ | Hide macOS app | Daily | No | |
+| ++cmd++ + ++q++ | Quit Kitty | Daily | No | |
 
 ## Raw configuration
+
+See dotfiles project for kitty configuration file. Below is an old reference pending to review
+
 
 ```conf
 map cmd+c copy_to_clipboard

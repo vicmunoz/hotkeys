@@ -16,3 +16,4 @@ Use these as starting points when expanding the docs.
 - [VS Code default key bindings](https://code.visualstudio.com/docs/reference/default-keybindings)
 - [Apple hotkeys](https://support.apple.com/en-us/102650)
 - [GNOME hotkeys](https://help.gnome.org/users/gnome-help/stable/hotkeys-set.html.en)
+- [Kitty Overview](https://sw.kovidgoyal.net/kitty/overview/)
